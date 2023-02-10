@@ -53,5 +53,17 @@ span {
   font-size: 24px;
   line-height: 29px;
   text-align: center;
-    margin-top: 9px;
+  margin-top: 9px;
+}
+
+.logo {
+  width: 278px;
+  position: absolute;
+  z-index: 1;
+}
+
+.mini-logo {
+  position: absolute;
+  z-index: 1;
+  right: 256px;
 }
