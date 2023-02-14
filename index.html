@@ -4,30 +4,128 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/index.css" />
     <title>Photo Contest</title>
   </head>
   <body>
+    <!-- navbar -->
     <nav>
-      <img class="logo" src="./img/Logo.svg" alt="Logo" />
+      <a href="#">
+        <img class="logo" src="./img/Logo.svg" alt="Logo" />
+      </a>
       <span
         >A contest to show your precious stories through photos and films</span
       >
       <li class="nav-buttons">
         <ul class="nav-button">
-          HOME
+          <a href="#"> HOME </a>
         </ul>
         <ul class="nav-button">
-          FAQ
+          <a href="./faq.html"> FAQ </a>
         </ul>
         <ul class="nav-button">
-          WINNERS
+          <a href="./winners.html"> WINNERS </a>
         </ul>
         <ul class="nav-button">
-          VOTE
+          <a href="./vote.html"> VOTE </a>
         </ul>
       </li>
-      <img class="mini-logo" src="./img/Mini Logo.svg" alt="mini-logo" />
+      <a class="mini-logo" href="#">
+        <img src="./img/Mini Logo.svg" alt="mini-logo" />
+      </a>
     </nav>
+    <!-- navbar -->
+    <!-- autoplay starts here -->
+    <img class="logo-low-opacity" src="./img/Logo Transaparent.svg" alt="" />
+    <video class="video" autoplay muted loop>
+      <source
+        src="https://treehouse-code-samples.s3.amazonaws.com/html-video-and-audio/bridge.mp4"
+        type="video/mp4"
+      />
+    </video>
+    <div class="popup">
+      The Nikon Photo Contest 2022-2023 is now open for entries.
+      <button class="popup-button"><span>ENTRY</span> from here.</button>
+    </div>
+    <!-- autoplay ends here -->
+    <!-- news starts here -->
+    <div class="news">
+      <div class="news-one">
+        <h1 class="title-news">NEWS</h1>
+        <div class="news-date"><span>2023.01.26</span></div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati,
+          quasi? Dolorem sequi quae in? Officiis, eos officia quaerat mollitia
+          aut ullam explicabo quo voluptates? Magnam aspernatur autem dolorum
+          vero assumenda.
+        </p>
+        <div class="divider"></div>
+      </div>
+      <div class="news-two">
+        <div class="news-date"><span>2023.01.01</span></div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati,
+          quasi? Dolorem sequi quae in? Officiis, eos officia quaerat mollitia
+          aut ullam explicabo quo voluptates? Magnam aspernatur autem dolorum
+          vero assumenda.
+        </p>
+        <div class="divider"></div>
+      </div>
+    </div>
+    <!-- news ends here -->
+    <!-- about starts here -->
+    <div class="about">
+      <div class="about-left">
+        <img
+          src="https://www.nikon-photocontest.com/assets/img/img_about.jpg"
+          alt="image"
+        />
+      </div>
+      <div class="about-right">
+        <h2 class="about-header">ABOUT<br />Photo Contest</h2>
+        <p>
+          Photo Contest has been organizing an international photography
+          competition to facilitate communication and enhance the culture of
+          image-making for both professional and amateur photographers globally
+        </p>
+        <button class="about-button">Read more</button>
+      </div>
+    </div>
+    <!-- about ends here -->
+    <!-- judges starts here -->
+    <div class="judges">
+      <div class="judges-left">
+        <img src="./img/Avengers.svg" alt="" class="judges-image" />
+      </div>
+      <div class="judges-right">
+        <h2 class="judges-header">2023 - Judges</h2>
+        <p class="judges-p">
+          Share your current worldview with us. Show us what it means to you to
+          be alive and to be able to share these experiences with us again. Show
+          us your unique perspective on the world and the people in it.
+        </p>
+        <button class="judges-button">Learn more</button>
+      </div>
+    </div>
+    <!-- judges ends here -->
+    <!-- footer starts here -->
+    <div class="footer">
+      <div class="footer-top">
+        <div class="back-on-top" id="myBtn" onclick="topFuntion()">
+          <img class="arrow-up" src="./img/Arrow up.svg" alt="arrow up" />
+          <span> Back on top </span>
+        </div>
+      </div>
+      <div class="footer-divider"></div>
+      <div class="footer-bottom">
+        <a href="https://www.facebook.com/Zactecson">
+          <img src="./img/FB Icon.svg" alt="" />
+        </a>
+        <div class="footer-bottom-credits">
+          © 2023 Zachary Tecson. All rights reserverd.
+        </div>
+      </div>
+    </div>
+    <!-- footer ends here -->
   </body>
 </html>
