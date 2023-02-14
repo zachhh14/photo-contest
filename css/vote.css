@@ -1,0 +1,37 @@
+h2 {
+  /* position: absolute; */
+  font-size: 65px;
+  font-family: "Inter";
+  text-align: center;
+  margin: 50px
+}
+
+.vote-body {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  flex-direction: column;
+  width: 100%;
+}
+
+.table-image{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+}
+
+.pics{
+  margin: 34px 29px;
+}
+
+.star{
+  position: relative;
+  z-index: 1;
+  top: -81px;
+  right: -125px;
+}
+
+.star:hover{
+  cursor: pointer;
+}
