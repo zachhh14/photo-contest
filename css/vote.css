@@ -3,7 +3,8 @@ h2 {
   font-size: 65px;
   font-family: "Inter";
   text-align: center;
-  margin: 50px
+  margin-top: 50px;
+  margin-bottom: 0;
 }
 
 .vote-body {
