@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/register.css" />
+    <title>Register</title>
+  </head>
+  <body>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <p class="modal-title">Upload Entries</p>
+          <span class="close">&times;</span>
+        </div>
+        <div
+          class="divider"
+          style="margin-top: 10px; margin-bottom: 10px"
+        ></div>
+        <div class="upload">
+          <div class="drag">
+            <span class="drag-placeholder">
+              Drag and drop image here or
+              <u class="browse" style="color: blue">browse</u> on your computer.
+              Only JPEG, PNG or PDF file with Maximum upload file size: 5MB
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="form">
+      <div class="header-picture"></div>
+      <div class="border border-header">
+        <h1 class="header">REGISTRATION FORM</h1>
+        <p class="note-header">
+          *Note: The picture you uploaded will be evaluated first before we
+          submit your entries to the system.
+        </p>
+      </div>
+      <div class="border border-email">
+        <form action="form">
+          <label for="email">Email *</label>
+          <input type="text" placeholder="Your email" id="email" />
+          <label for="photographer">Photographer</label>
+          <input type="text" placeholder="Your name" id="name" />
+          <label for="upload-pictures">Upload your entries</label>
+          <div class="note" style="margin-left: 25px; font-size: 12px">
+            *Note: The picture you uploaded will be evaluated first before we
+            submit your entries to the system.
+          </div>
+        </form>
+        <button id="modal">Add file</button>
+      </div>
+      <footer>
+        <p class="footer">
+          This content is neither created nor endorsed by PhotoContest. Report
+          Abuse - Terms of Service - Privacy Policy
+        </p>
+        <a href="../index.html">
+          <img src="../img/Logo Transaparent.svg" alt="" />
+        </a>
+      </footer>
+      <script src="../script/register.js"></script>
+    </div>
+  </body>
+</html>
