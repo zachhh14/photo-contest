@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter";
+}
+
+body {
+  background-color: #d9dddc;
+}
+
+.background {
+  height: 100%;
+  width: 100%;
+}
+
+.border {
+  background-color: #fff;
+  padding: 24px;
+  border: 1px solid #dadce0;
+  border-radius: 8px;
+  max-width: 640px;
+  margin-top: 12px;
+  margin-left: 33%;
+  margin-right: 33%;
+  min-width: 235px;
+  /* margin: 12px 619px 0 619px; */
+}
+
+.header-picture {
+  height: 80vw;
+  max-height: 160px;
+  max-width: 640px;
+  width: 34%;
+  min-width: 235px;
+  /* width: 640px; */
+  border: 1px solid #dadce0;
+  border-radius: 8px;
+  background-image: url("../img/login/header-picture.png");
+  margin-top: 12px;
+  margin-left: 33%;
+}
+
+.header {
+  font-family: "Inter";
+  margin-bottom: 12px;
+}
+
+.note-header {
+  font-family: "Inter";
+}
+
+input {
+  width: 98%;
+  height: 35px;
+  padding: 5px;
+  border-radius: 8px;
+  border: 1px solid #dadce0;
+}
+
+label {
+  margin-bottom: 16px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-bottom: 24px;
+}
+
+button {
+  margin-top: 12px;
+  background-color: #d9dddc;
+  border: 1px solid #dadce0;
+  border-radius: 8px;
+  padding: 0 11px;
+  width: 78px;
+  height: 34px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.footer {
+  margin: 16px 0;
+  font-size: 12px;
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  border-radius: 8px;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.modal-title {
+  align-self: center;
+  font-weight: 700;
+}
+
+.divider {
+  background-color: #888;
+  width: 100%;
+  height: 1px;
+}
+
+.upload {
+  height: 319px;
+  padding: 24px;
+}
+
+.drag {
+  border: 2px dashed #888;
+  border-radius: 8px;
+  height: 100%;
+}
+
+.drag-placeholder {
+  color: #aaaa;
+}
+
+.browse:hover {
+  cursor: pointer;
+}
